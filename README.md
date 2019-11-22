@@ -1,3 +1,16 @@
+# Pursuit-Core-Web-React-Introduction-Lab
+
+
+Recreate the image below using React and CSS.  Use CSS Grid Layout to arrange your components.
+
+
+![ProfilePage](./ProfilePage.png)
+
+
+
+
+# Boilerplate create-react-app documentation
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
