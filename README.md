@@ -7,7 +7,7 @@ Recreate the image below using React and CSS.  Use CSS Grid Layout to arrange yo
 
 ## Description
 
-This lab was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You you have a React App scaffolding to start with.
+This lab was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You you have a React App scaffolding to start with but you will need to run `npm install` to download all it's dependencies (takes some time).
 
 Your App will have the following components structure. Create a file per component in a folder `src/Components/`
 
