@@ -22,6 +22,7 @@ Your App will have the following components structure. Create a file per compone
 
 * Think about how this components tree matches what a user will see in the screen.
 * How many children will `App` have and who are they?
+* Import the children of `App` into `App.js` and use them.
 
 # Boilerplate create-react-app documentation
 
