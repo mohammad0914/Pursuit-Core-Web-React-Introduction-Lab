@@ -1,7 +1,7 @@
 # Pursuit-Core-Web-React-Introduction-Lab
 
 
-Recreate the image below using React and CSS.  Use CSS Grid Layout to arrange your components.
+Recreate the image below using React and CSS. Use CSS Grid Layout to arrange the four sections of the page.
 
 ![ProfilePage](./ProfilePage.png)
 
