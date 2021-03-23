@@ -1,7 +1,7 @@
 # Pursuit-Core-Web-React-Introduction-Lab
 
 
-Recreate the image below using React and CSS.  Use CSS Grid Layout to arrange your components.
+Recreate the image below using React and CSS. Use CSS Grid Layout to arrange the four sections of the page.
 
 ![ProfilePage](./ProfilePage.png)
 
@@ -9,7 +9,10 @@ Recreate the image below using React and CSS.  Use CSS Grid Layout to arrange yo
 
 This lab was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You you have a React App scaffolding to start with but you will need to run `npm install` to download all its dependencies (takes some time).
 
-Your App will have the following components structure. Create a file per component in a folder `src/Components/`
+Your App will have the following components structure.
+Create a file per component in a `src/Components/` folder, like `src/Components/NavBar.js`.
+
+> Jest tests assume your components are set up in that structure with the same names from the diagram.
 
 * Visualized as a component tree
 
