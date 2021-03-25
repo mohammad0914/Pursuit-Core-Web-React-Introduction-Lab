@@ -10,10 +10,8 @@ const parseAllFiles = async () => {
   const fileName = __dirname + "/../reports/junit/junit.xml";
   const { testsuites } = await new Parser().parseXMLFile(fileName);
 
-  const numSuites = testsuites.length
-  let passedSuites = testsuites
-    .filter((ts) => passed(ts))
-    .map((ts) => ts.name);
+  const numSuites = testsuites.length;
+  let passedSuites = testsuites.filter((ts) => passed(ts)).map((ts) => ts.name);
   let failedSuites = testsuites
     .filter((ts) => !passed(ts))
     .map((ts) => ts.name);
