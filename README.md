@@ -1,5 +1,20 @@
 # Pursuit-Core-Web-React-Introduction-Lab
 
+## Getting Started
+
+- Fork this repo
+- Clone the forked repository
+- `cd` to the directory where you cloned it
+- `npm install` to install dependencies
+- `npm run test` to run tests
+
+> _Note_: Remember to `git add`, `git commit` and `git push` regularly
+
+## Submission Guidelines
+
+- When finished, commit and push your work.
+- Make a pull request on github.
+- Submit the link to your pull request on Canvas.
 
 Recreate the image below using React and CSS. Use CSS Grid Layout to arrange the four sections of the page.
 

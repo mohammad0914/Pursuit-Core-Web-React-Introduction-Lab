@@ -39,6 +39,14 @@ jobs:
           at: "."
 
       - run: npm run test
+      - store_test_results:
+          path: ./reports/junit
+      - store_artifacts:
+          path: ./reports/junit
+      - run:
+          name: Notify Test Results
+          command: node ./scripts/parseJunit.js
+          when: always
 
 workflows:
   version: 2
