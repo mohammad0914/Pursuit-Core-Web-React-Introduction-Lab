@@ -8,6 +8,8 @@
 - `npm install` to install dependencies
 - `npm run test` to run tests
 
+> If you receive an error trying to run the tests, you can try [installing watchman](https://docs.reactioncommerce.com/docs/jest-tips)
+
 > _Note_: Remember to `git add`, `git commit` and `git push` regularly
 
 ## Submission Guidelines
