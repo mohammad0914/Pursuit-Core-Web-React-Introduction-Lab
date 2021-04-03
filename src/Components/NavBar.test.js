@@ -11,9 +11,7 @@ describe("NavBar", () => {
   ])("child at %i is a button with %s", (index, text) => {
     const wrapper = shallow(<NavBar />);
 
-    const child = wrapper.childAt(index);
-
-    expect(child).toHaveDisplayName("button");
-    expect(child).toHaveText(text);
+    const button = wrapper.find("button").at(index);
+    expect(button.text()).toBe(text);
   });
 });
