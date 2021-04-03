@@ -11,11 +11,9 @@ describe("App", () => {
   it("renders NavBar, UserProfile, Posts, and Contacts", () => {
     const wrapper = shallow(<App />);
 
-    expect(wrapper.children().map((child) => child.type())).toEqual([
-      NavBar,
-      UserProfile,
-      Posts,
-      Contacts,
-    ]);
+    expect(wrapper.find(NavBar).exists()).toBe(true);
+    expect(wrapper.find(UserProfile).exists()).toBe(true);
+    expect(wrapper.find(Posts).exists()).toBe(true);
+    expect(wrapper.find(Contacts).exists()).toBe(true);
   });
 });
