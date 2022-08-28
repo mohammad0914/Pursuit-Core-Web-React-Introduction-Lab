@@ -9,3 +9,12 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.NavBar {
+  background-color: aqua;
+  align-items: flex-end;
+}
+
+.UserProfile {
+  display: flex;
+}
