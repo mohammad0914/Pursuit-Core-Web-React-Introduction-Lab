@@ -1,11 +1,12 @@
-import '.src/ index.css'
+// import './NavBar1.css'
 const NavBar = () => {
     return (
-        <div className='index.css'>
-            <button>what is pursuite?</button>
-            <button>Create and account</button>
+        <>
+            <button>Whatt is Pursuit?</button>
+            <button>Create an account</button>
             <button>Sign in</button>
-        </div>
+            </>
+        
     )
 }
 
