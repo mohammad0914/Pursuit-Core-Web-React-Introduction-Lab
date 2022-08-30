@@ -1,10 +1,11 @@
+import React from "react";
 
 const Post = () => {
     return (
-        <>
-            <h1>Title</h1>
-            <p>LorenIpsem</p>
-        </>
+        <div>
+            <p>Title</p>
+            <p>Lorem Ipsem</p>
+            </div>
     )
 }
 

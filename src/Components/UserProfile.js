@@ -1,12 +1,13 @@
-import '.src/index.css'
+// import '.src/index.css'
+import React from "react"
 const UserProfile = () => {
     return (
         <>
-            <div className='UserProfile'>
+            <div >
                 <img />
-                <p>jordan walker</p>
+                <p>Jordan Walke</p>
                 <p>React Creator</p>
-                <p>loren ipsam</p>
+                <p>Lorem Ipsem</p>
             </div>
         </>
 

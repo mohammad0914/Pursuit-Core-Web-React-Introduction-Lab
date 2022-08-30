@@ -1,11 +1,14 @@
 // import './NavBar1.css'
+import React from "react";
+//if you write above error:undefined react 
+
 const NavBar = () => {
     return (
-        <>
-            <button>Whatt is Pursuit?</button>
+        <div>
+            <button>What is Pursuit?</button>
             <button>Create an account</button>
             <button>Sign in</button>
-            </>
+            </div>
         
     )
 }

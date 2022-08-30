@@ -1,24 +1,18 @@
 
-const Contact = () => {
-    return (
-        <>
-            <img />
-            <h1>Jordan Walker</h1>
-            <h1>React Creator</h1>
-            <p>LorenIpsem</p>
-        </>
-    )
-}
+import React from "react"
+import ContactUserCard from "./ContactUserCard";
 
 const Contacts = () => {
     return (
-        <>
+        <div>
             <h1>Contacts</h1>
-            <Contact />
-            <Contact />
-            <Contact />
+            <ContactUserCard />
+            <ContactUserCard />
+            <ContactUserCard />
+            <ContactUserCard />
 
-        </>
+
+            </div>
     )
 }
 
